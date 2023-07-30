@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.playernames {
+  font-weight: bold;
+  margin-top: 10px;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+}
+
+.labels {
+  margin-top: 20px;
+}
+
+.labels p {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
